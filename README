@@ -1,0 +1,20 @@
+Static assets for ddr-public
+
+
+
+
+favicon-16.png 
+favicon-24.png 
+favicon-32.png 
+favicon-48.png 
+favicon-57.png 
+favicon-64.png 
+favicon-72.png 
+favicon-96.png
+favicon-128.png 
+favicon-195.png 
+favicon-512.png 
+
+convert favicon-16.png favicon-24.png favicon-32.png favicon-48.png favicon-57.png favicon-64.png favicon-72.png favicon-96.png favicon-128.png favicon-195.png favicon.ico
+
+<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/static/favicon.ico">
