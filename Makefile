@@ -13,7 +13,7 @@ DEBIAN_RELEASE := $(shell lsb_release -sr)
 # Sortable major version tag e.g. deb8
 DEBIAN_RELEASE_TAG = deb$(shell lsb_release -sr | cut -c1)
 
-INSTALL_BASE=/opt
+INSTALL_BASE=/opt/ddr-public
 INSTALLDIR=$(INSTALL_BASE)/ddr-public-assets
 
 MEDIA_BASE=/var/www/ddrpublic
