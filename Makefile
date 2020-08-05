@@ -13,7 +13,7 @@ DEBIAN_RELEASE := $(shell lsb_release -sr)
 # Sortable major version tag e.g. deb8
 DEBIAN_RELEASE_TAG = deb$(shell lsb_release -sr | cut -c1)
 
-INSTALL_BASE=/opt/ddr-public
+INSTALL_BASE=/opt
 INSTALLDIR=$(INSTALL_BASE)/ddr-public-assets
 
 MEDIA_BASE=/var/www/ddrpublic
@@ -31,7 +31,7 @@ DEB_FILE_BUSTER=$(DEB_NAME_BUSTER)_$(DEB_VERSION_BUSTER)_$(DEB_ARCH).deb
 DEB_VENDOR=Densho.org
 DEB_MAINTAINER=<geoffrey.jost@densho.org>
 DEB_DESCRIPTION=Densho Digital Archive assets
-DEB_BASE=opt/ddr-public/ddr-public-assets
+DEB_BASE=opt/ddr-public-assets
 
 
 .PHONY: help
