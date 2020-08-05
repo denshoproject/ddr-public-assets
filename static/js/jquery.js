@@ -1,1 +1,1 @@
-/var/www/ddrpublic/static/js/jquery-1.11.0.min.js
+jquery-1.11.0.min.js
