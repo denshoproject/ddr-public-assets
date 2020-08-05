@@ -31,7 +31,7 @@ DEB_FILE_BUSTER=$(DEB_NAME_BUSTER)_$(DEB_VERSION_BUSTER)_$(DEB_ARCH).deb
 DEB_VENDOR=Densho.org
 DEB_MAINTAINER=<geoffrey.jost@densho.org>
 DEB_DESCRIPTION=Densho Digital Archive assets
-DEB_BASE=opt/ddr-public-assets
+DEB_BASE=opt/ddr-public/ddr-public-assets
 
 
 .PHONY: help
