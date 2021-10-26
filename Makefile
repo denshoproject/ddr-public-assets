@@ -127,6 +127,7 @@ deb-bullseye:
 	.git=$(DEB_BASE)   \
 	.gitignore=$(DEB_BASE)   \
 	assets=$(DEB_BASE)   \
+	favicon=$(DEB_BASE)   \
 	INSTALL=$(DEB_BASE)   \
 	Makefile=$(DEB_BASE)   \
 	README=$(DEB_BASE)   \
