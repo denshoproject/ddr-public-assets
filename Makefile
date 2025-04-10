@@ -106,6 +106,7 @@ deb-bullseye:
 	.git=$(DEB_BASE)   \
 	.gitignore=$(DEB_BASE)   \
 	assets=$(DEB_BASE)   \
+	bin=$(DEB_BASE)   \
 	INSTALL=$(DEB_BASE)   \
 	Makefile=$(DEB_BASE)   \
 	README=$(DEB_BASE)   \
@@ -134,6 +135,7 @@ deb-bookworm:
 	.git=$(DEB_BASE)   \
 	.gitignore=$(DEB_BASE)   \
 	assets=$(DEB_BASE)   \
+	bin=$(DEB_BASE)   \
 	favicon=$(DEB_BASE)   \
 	INSTALL=$(DEB_BASE)   \
 	Makefile=$(DEB_BASE)   \
@@ -163,6 +165,7 @@ deb-trixie:
 	.git=$(DEB_BASE)   \
 	.gitignore=$(DEB_BASE)   \
 	assets=$(DEB_BASE)   \
+	bin=$(DEB_BASE)   \
 	favicon=$(DEB_BASE)   \
 	INSTALL=$(DEB_BASE)   \
 	Makefile=$(DEB_BASE)   \
